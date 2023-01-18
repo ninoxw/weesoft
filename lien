@@ -1,0 +1,29 @@
+<nav class='main-menu-wrap'>
+              <b:section class='onepress-pro-main-menu' id='onepress-pro-main-menu' maxwidgets='1' name='Main Menu' showaddelement='no'>
+                <b:widget id='LinkList155' locked='true' title='Main Menu' type='LinkList' version='2' visible='true'>
+                  <b:widget-settings>
+                    <b:widget-setting name='link-5'>https://www.wee-soft.com/2017/04/download-google-chrome.html</b:widget-setting>
+                    <b:widget-setting name='link-3'>https://www.wee-soft.com/2021/01/twitter-android.html</b:widget-setting>
+                    <b:widget-setting name='link-4'>https://www.wee-soft.com/2020/04/download-instagram.html</b:widget-setting>
+                    <b:widget-setting name='text-1'>تيك توك</b:widget-setting>
+                    <b:widget-setting name='text-0'>تحميل برنامج إسترجاع الملفات</b:widget-setting>
+                    <b:widget-setting name='text-3'>تحميل تطبيق تويتر</b:widget-setting>
+                    <b:widget-setting name='text-2'>تحميل لعبة كلاش اوف كلانس</b:widget-setting>
+                    <b:widget-setting name='text-5'>تحميل جوجل كروم</b:widget-setting>
+                    <b:widget-setting name='text-4'>تحميل تطبيق انستقرام للاندرويد</b:widget-setting>
+                    <b:widget-setting name='sorting'>NONE</b:widget-setting>
+                    <b:widget-setting name='link-1'>https://www.wee-soft.com/2019/11/tiktok.html</b:widget-setting>
+                    <b:widget-setting name='link-2'>https://www.wee-soft.com/2021/02/clash-of-clans.html</b:widget-setting>
+                    <b:widget-setting name='link-0'>https://www.wee-soft.com/2019/09/recover-my-files.html</b:widget-setting>
+                  </b:widget-settings>
+                  <b:includable id='main'>
+                    <b:include name='content'/>
+                  </b:includable>
+                  <b:includable id='content'>
+                      <b:loop values='data:links' var='link'>
+                        <li><a expr:href='data:link.target'><data:link.name/></a></li>
+                      </b:loop>
+                  </b:includable>
+                </b:widget>
+              </b:section>
+            </nav>
